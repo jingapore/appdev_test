@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS "Book";
+
+CREATE TABLE "Book" (
+    "BookId" INTEGER PRIMARY KEY AUTOINCREMENT, 
+    "BookTitle" TEXT NOT NULL, 
+    "BookAuthor" TEXT NOT NULL
+)
